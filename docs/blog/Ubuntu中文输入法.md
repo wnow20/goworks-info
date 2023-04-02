@@ -1,4 +1,5 @@
 # Ubuntu中文输入法
+
 ## 添加语言支持
 
 `Language Support`中的 `Install / Remove Languages…` 中安装汉语
