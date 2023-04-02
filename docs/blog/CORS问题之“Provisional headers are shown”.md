@@ -3,7 +3,7 @@
 
 在开发网站的过程中，使用了前后端分离的架构，前后端分别有自己的服务容器，因此就存在跨域问题，因此后端开启了CORS处理。但是在前端在从浏览器发起请求时，浏览器提示 `Provisional headers are shown` ，如下图所示：
 
-![Untitled](d8ec7ce3_Untitled.png)
+![Untitled](./d8ec7ce3_Untitled.png)
 
 ## 解读官方文档
 
@@ -11,11 +11,11 @@
 
 - 请求未通过网络发送，但是被本地缓存处理，该请求未存储原始请求头。这种情况，你能通过[禁用缓存](https://developer.chrome.com/docs/devtools/network/reference/?utm_source=devtools#disable-cache)来查看完整的请求头。
 
-![Untitled](75b68aa0_Untitled.png)
+![Untitled](./75b68aa0_Untitled.png)
 
 - 网络资源不合法，例如在控制台执行 `fetch("``[https://jec.fyi.com/unknown-url/](https://jec.fyi.com/unknown-url/)``")` 。
 
-![Untitled](e14c4077_Untitled.png)
+![Untitled](./e14c4077_Untitled.png)
 
 开发者工具因为安全原因，只能展示浏览器策略允许的请求头字段。（DevTools can also display only provisional headers due to security reasons.）
 
