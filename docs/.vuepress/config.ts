@@ -19,6 +19,18 @@ export default defineUserConfig({
   theme: defaultTheme({
     docsDir: 'docs',
     sidebar: {
+      '/aikit': [
+        {
+          text: 'AiKit',
+          children: [
+            '/aikit/README.md',
+            '/aikit/release-notes.md',
+            '/aikit/pricing.md',
+            '/aikit/troubleshooting.md',
+            '/aikit/about-aikit.md',
+          ],
+        }
+      ],
       '/blog': [
         {
           text: 'Linux与运维',
@@ -63,6 +75,10 @@ export default defineUserConfig({
       {
         text: 'Hooks',
         link: '/hooks',
+      },
+      {
+        text: 'AiKit',
+        link: '/aikit',
       },
       {
         text: '博客',
