@@ -11,5 +11,5 @@ https://goworks.vercel.app/
 ## TODOs
 - [ ] 域名
 - [ ] Chrome脚手架: React
-- [ ] AiKit发布网站日志
-- [ ] AiKit公布源代码
+- [x] AiKit发布网站日志
+- [x] AiKit公布源代码
