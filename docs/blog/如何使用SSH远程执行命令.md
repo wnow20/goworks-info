@@ -53,7 +53,7 @@ ssh root@nas01 "uname -mrs"
 ssh root@nas01 lsb_release -a
 ```
 
-![run-command-overssh-demo](ee8c9648_run-command-overssh-demo.webp)
+![run-command-overssh-demo](./ee8c9648_run-command-overssh-demo.webp)
 
 ### 运行服务器上的脚本文件
 
@@ -114,7 +114,7 @@ ssh admin@ls.backup <commands.txt
 
 执行效果如下：
 
-![How-to-run-and-execute-commands-using-ssh-on-Linux-or-Unix](97f98f47_How-to-run-and-execute-commands-using-ssh-on-Linux-or-Unix.webp)
+![How-to-run-and-execute-commands-using-ssh-on-Linux-or-Unix](./97f98f47_How-to-run-and-execute-commands-using-ssh-on-Linux-or-Unix.webp)
 
 ## 如何在shell脚本中执行多个ssh远程命令
 
@@ -145,7 +145,7 @@ EOL
 
 执行效果如下：
 
-![A-few-ways-to-execute-commands-remotely-using-SSH-on-macos-unix-bsd-system](18911799_A-few-ways-to-execute-commands-remotely-using-SSH-on-macos-unix-bsd-system.webp)
+![A-few-ways-to-execute-commands-remotely-using-SSH-on-macos-unix-bsd-system](./18911799_A-few-ways-to-execute-commands-remotely-using-SSH-on-macos-unix-bsd-system.webp)
 
 使用bash的Heredoc能力执行多行命令
 
