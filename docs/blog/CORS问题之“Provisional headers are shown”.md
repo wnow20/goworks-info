@@ -31,13 +31,13 @@
 
 ### 方法一：查看控制台
 
-![Untitled](cc356851_Untitled.png)
+![Untitled](./cc356851_Untitled.png)
 
 ### 方法二：通过拷贝原始请求信息，获取当时发送的请求头
 
 如下图所示：
 
-![Untitled](4e628d04_Untitled.png)
+![Untitled](./4e628d04_Untitled.png)
 
 <br/>
 
@@ -63,7 +63,7 @@
 
 - 点击事件(events)，查看与你相关请求事件，点击查看明细，示意图如下：
 
-![Untitled](21267785_Untitled.png)
+![Untitled](./21267785_Untitled.png)
 
 老版的浏览器方法：
 

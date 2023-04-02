@@ -3,7 +3,7 @@
 
 `Language Support`中的 `Install / Remove Languages…` 中安装汉语
 
-![Untitled](57b44218_Untitled.png)
+![Untitled](./57b44218_Untitled.png)
 
 ## 切换IBus框架
 
@@ -25,5 +25,5 @@ Keyboard > Input Sources
 
 添加 Chinese(Intelligent Pinyin)
 
-![Untitled](fbefd2b5_Untitled.png)
+![Untitled](./fbefd2b5_Untitled.png)
 
