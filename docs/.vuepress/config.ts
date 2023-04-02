@@ -10,6 +10,9 @@ export default defineUserConfig({
       level: [1,2,3],
     },
   },
+  head: [
+    ['script', { src: "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7669648936627336", crossorigin: "anonymous" }],
+  ],
   theme: defaultTheme({
     navbar: [
       {
