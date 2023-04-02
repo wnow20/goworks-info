@@ -1,5 +1,2 @@
-# Hello VuePress
-
-[getting started](./guide/getting-started.md)
-
-VuePress 2 已经发布 :tada: ！
+# Goworks
+专注前端领域的知识与信息分享 :tada: ！
