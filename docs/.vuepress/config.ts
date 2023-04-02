@@ -57,8 +57,12 @@ export default defineUserConfig({
     },
     navbar: [
       {
-        text: '首页',
+        text: 'React',
         link: '/',
+      },
+      {
+        text: 'Hooks',
+        link: '/hooks',
       },
       {
         text: '博客',
