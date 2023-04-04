@@ -1,6 +1,6 @@
 # dotenv 环境变量
 
-[dotenv](https://github.com/motdotla/dotenv) 是一个独立的node模块，用于从 `.env` 中加载环境变量到 `[process.env](https://nodejs.org/dist/latest-v18.x/docs/api/process.html#processenv)`。
+[dotenv](https://github.com/motdotla/dotenv) 是一个独立的node模块，用于从 `.env` 中加载环境变量到 [process.env](https://nodejs.org/dist/latest-v18.x/docs/api/process.html#processenv)。
 
 
 ## 安装
@@ -13,7 +13,7 @@
 mkdir my-favor-project && cd my-favor-project
 npm init
 ```
-然后一路回车，你讲生成一个 `package.json` 文件
+然后一路回车，你将生成一个 `package.json` 文件
 
 
 ### 添加 dotenv 依赖
@@ -53,9 +53,10 @@ console.log(process.env.SECRET_KEY);
 ```
 
 ### 使用多个配置文件
-修改 index.js 文件为一下内容:
+比较常见的场景是，你本地的开发环境与生产环境的需要的配置是不一样的。稍微修改代码，我们即可实现，代码如下：
+
+修改 index.js 文件
 ```js
-console.log(process.env.NODE_ENV);
 require('dotenv').config({ path: `.env.${process.env.NODE_ENV}` });
 console.log(process.env.S3_BUCKET);
 console.log(process.env.SECRET_KEY);
@@ -77,3 +78,4 @@ cat .env.production
 export NODE_ENV=production && node index.js
 ```
 
+**恭喜你，又 Get 了一个新技能！ :tada:**

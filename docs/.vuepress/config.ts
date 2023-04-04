@@ -51,6 +51,7 @@ export default defineUserConfig({
             '/blog/如何更好的适配Retina屏幕.md',
             '/blog/自定义控制网页渲染帧数.md',
             '/blog/TypeScript学习笔记.md',
+            '/blog/dotenv.md',
           ]
         },
         {
