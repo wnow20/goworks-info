@@ -4,7 +4,7 @@
 
 ## 发布站点
 
-https://goworks.vercel.app/
+https://goworks.net/
 
 [我的博客](https://goworks.vercel.app/blog)
 
