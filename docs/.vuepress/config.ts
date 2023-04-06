@@ -41,6 +41,7 @@ export default defineUserConfig({
             '/blog/Ubuntu分区.md',
             '/blog/如何使用SSH远程执行命令.md',
             '/blog/永久关闭Ubuntu虚拟内存Swap.md',
+            '/blog/docker-container-inspect-file-system.md',
           ],
         },
         {
