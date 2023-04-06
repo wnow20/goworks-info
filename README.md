@@ -6,7 +6,7 @@
 
 https://goworks.net/
 
-[我的博客](https://goworks.vercel.app/blog)
+[我的博客](https://goworks.net/blog)
 
 ## TODOs
 - [ ] 域名
