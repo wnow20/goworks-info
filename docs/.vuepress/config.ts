@@ -42,6 +42,7 @@ export default defineUserConfig({
             '/blog/如何使用SSH远程执行命令.md',
             '/blog/永久关闭Ubuntu虚拟内存Swap.md',
             '/blog/docker-container-inspect-file-system.md',
+            '/blog/remix-express-deploy-aliyun.md',
           ],
         },
         {
