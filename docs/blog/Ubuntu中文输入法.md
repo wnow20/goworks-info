@@ -26,5 +26,11 @@ Keyboard > Input Sources
 
 添加 Chinese(Intelligent Pinyin)
 
+> 注：修改完毕之后，需要重启机器
+
 ![Untitled](./fbefd2b5_Untitled.png)
 
+## 输入法切换快捷键
+
+输入法切换: `Win` + `空格`
+中英文切换: `Shift`
