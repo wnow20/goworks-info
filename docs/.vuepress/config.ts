@@ -1,4 +1,5 @@
 import { defaultTheme, defineUserConfig } from 'vuepress'
+import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 
 export default defineUserConfig({
   // lang: 'zh-CN',
@@ -15,6 +16,11 @@ export default defineUserConfig({
       src: '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7669648936627336',
       crossorigin: 'anonymous',
     }],
+  ],
+  plugins: [
+    googleAnalyticsPlugin({
+      id: 'G-KW086YVFQ7',
+    }),
   ],
   theme: defaultTheme({
     docsDir: 'docs',
