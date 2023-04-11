@@ -75,15 +75,21 @@ export default defineUserConfig({
           ]
         }
       ],
+      '/testing': [
+        {
+          text: 'E2E测试',
+          children: [
+            '/testing/java-test-terminal-command.md',
+            '/testing/playwright-guide.md',
+            '/testing/playwright-e2e-testing-in-java.md',
+          ]
+        }
+      ]
     },
     navbar: [
       {
-        text: 'React',
-        link: '/',
-      },
-      {
-        text: 'Hooks',
-        link: '/hooks',
+        text: '测试',
+        link: '/testing',
       },
       {
         text: 'AiKit',
