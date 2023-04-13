@@ -163,4 +163,4 @@ void test_start_todo_app_by_command() throws InterruptedException, IOException {
 3. 在主线程结束时，需要终止web应用，这里使用 `addShutdownHook`实现；
 
 ### 总结
-本文讲述了 `Process` 实例的创建、运行，以及对标准IO的操作，并且对web应用E2E测试场景进行了说明。本文所有代码请查阅 [e2e-testing-tutorials](https://github.com/wnow20/e2e-testing-tutorials)，国内镜像清访问 [gitee](https://gitee.com/wnow20/e2e-testing-tutorials)，感谢你的阅读。
+本文讲述了 `Process` 实例的创建、运行，以及对标准IO的操作，并且对web应用E2E测试场景进行了说明。本文所有代码请查阅 [e2e-testing-tutorials](https://github.com/wnow20/e2e-testing-tutorials/tree/3d68b60d54a46ccd81fb4da8abce7fa3226f9e0b/playwright/e2e-testing-java/src/test/java/net/goworks/todoapp)，国内镜像清访问 [gitee](https://gitee.com/wnow20/e2e-testing-tutorials/tree/3d68b60d54a46ccd81fb4da8abce7fa3226f9e0b/playwright/e2e-testing-java/src/test/java/net/goworks/todoapp)，感谢你的阅读。

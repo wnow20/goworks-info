@@ -1,8 +1,9 @@
 import { defaultTheme, defineUserConfig } from 'vuepress'
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
+import { tocPlugin } from '@vuepress/plugin-toc'
 
 export default defineUserConfig({
-  // lang: 'zh-CN',
+  lang: 'zh-CN',
   title: 'Goworks',
   // pagePatterns: ['**/*.md', '!**/README.md', '!.vuepress', '!node_modules'],
   description: '这是我的第一个 VuePress 站点',
@@ -20,6 +21,9 @@ export default defineUserConfig({
   plugins: [
     googleAnalyticsPlugin({
       id: 'G-KW086YVFQ7',
+    }),
+    tocPlugin({
+      // 配置项
     }),
   ],
   theme: defaultTheme({
