@@ -100,6 +100,14 @@ export default defineUserConfig({
         link: '/aikit',
       },
       {
+        text: '在线工具',
+        children: [{
+          text: '图片压缩',
+          link: 'https://tinypng.goworks.net',
+          target: '_blank',
+        }],
+      },
+      {
         text: '博客',
         link: '/blog',
       },
