@@ -58,4 +58,13 @@ import ParentLayout from '@vuepress/theme-default/layouts/Layout.vue'
 .website-footer-flex-item {
   margin: 0 5em;
 }
+@media (max-width: 600px) {
+  .website-footer-flex {
+    flex-direction: column;
+  }
+  .website-footer-flex-item {
+    margin: 0 1em;
+    text-align: center;
+  }
+}
 </style>
