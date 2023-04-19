@@ -38,7 +38,7 @@ import ParentLayout from '@vuepress/theme-default/layouts/Layout.vue'
 }
 
 .website-footer a {
-  color: #333;
+  color: var(--c-text);
 }
 
 .website-footer a:hover {
@@ -55,16 +55,28 @@ import ParentLayout from '@vuepress/theme-default/layouts/Layout.vue'
   flex-direction: row;
   justify-content: center;
 }
+
 .website-footer-flex-item {
   margin: 0 5em;
 }
+
 @media (max-width: 600px) {
   .website-footer-flex {
     flex-direction: column;
   }
+
   .website-footer-flex-item {
     margin: 0 1em;
     text-align: center;
   }
+}
+
+/* defaults to dark theme */
+html.dark .website-footer-wrapper {
+  background: var(--c-bg);
+}
+
+html.dark .website-footer-wrapper {
+  color: var(--c-text);
 }
 </style>
