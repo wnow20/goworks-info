@@ -9,8 +9,8 @@ import ParentLayout from '@vuepress/theme-default/layouts/Layout.vue'
         <div class="website-footer">
           <div class="website-footer-flex">
             <div class="website-footer-flex-item">
-              <p><a href="/privacy-policy.html" target="_blank">隐私策略</a>英文</p>
-              <p><a href="/privacy-policy-cn.html" target="_blank">隐私策略</a>中文</p>
+              <p><a href="/privacy-policy.html" target="_blank">Privacy Policy</a></p>
+              <p><a href="/privacy-policy-cn.html" target="_blank">隐私策略</a></p>
             </div>
             <div class="website-footer-flex-item">
               <p><a href="/contact.html" target="_blank">联系我们</a></p>
