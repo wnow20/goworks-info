@@ -81,6 +81,12 @@ export default defineUserConfig({
       ],
       '/testing': [
         {
+          text: '单元测试',
+          children: [
+            '/testing/jacoco_in_action.md',
+          ],
+        },
+        {
           text: 'E2E测试',
           children: [
             '/testing/java-test-terminal-command.md',

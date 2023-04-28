@@ -4,6 +4,9 @@
 ## 目录
 
 ### [软件测试](./testing/README.md)
+#### 单元测试
+[Jacoco配置实践日志](./testing/jacoco_in_action.md)
+
 #### E2E测试
 [用Java测试终端命令](./testing/java-test-terminal-command.md)
 
