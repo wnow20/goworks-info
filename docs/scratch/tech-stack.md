@@ -12,6 +12,14 @@
 | 前端 | JS      | 构建工具     | Esbuild     | https://esbuild.github.io/ | https://github.com/evanw/esbuild |
 | 前端 | JS      | 构建工具     | Webpack     | https://webpack.js.org/ | https://github.com/webpack/webpack |
 
+## 前端类库
+
+| 类别        | 库名              | 官网  | 源码                                         | 其它                                                        |
+|:----------|:----------------|:----|:-------------------------------------------|:----------------------------------------------------------|
+| uuid      | uuid            | -   | https://github.com/uuidjs/uuid             |                                                           |
+| clipboard | clipboard-copy  | -   | https://github.com/feross/clipboard-copy   | 这里不推荐使用clipboard.js，因为clipboard.js要与dom绑定，在写React的时候不方便使用 |
+
+
 ## 部署
 Aliyun Serverless
 Amazon EC2
