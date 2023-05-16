@@ -34,6 +34,7 @@
 [Remix如何部署阿里云函数FC](./blog/remix-express-deploy-aliyun.html)
 
 #### 前端
+[在TypeScript中如何正确使用setTimeout](./ts/setTimeout_in_TypeScript.md)
 
 [CORS问题之“Provisional headers are shown”](./blog/CORS%E9%97%AE%E9%A2%98%E4%B9%8B%E2%80%9CProvisional%20headers%20are%20shown%E2%80%9D.html)
 
