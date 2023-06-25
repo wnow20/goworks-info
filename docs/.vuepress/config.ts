@@ -76,6 +76,7 @@ export default defineUserConfig({
           text: '日常',
           children: [
             '/blog/华硕B660M-PLUS装机小计.md',
+            '/blog/leap-year.md'
           ]
         }
       ],
