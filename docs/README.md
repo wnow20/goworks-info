@@ -33,6 +33,8 @@
 
 [Remix如何部署阿里云函数FC](./blog/remix-express-deploy-aliyun.html)
 
+[curl或libcurl的证书问题：unable to get local issuer certificate.md](blog%2Fcurl%E6%88%96libcurl%E7%9A%84%E8%AF%81%E4%B9%A6%E9%97%AE%E9%A2%98%EF%BC%9Aunable%20to%20get%20local%20issuer%20certificate.md)
+
 #### 前端
 [在TypeScript中如何正确使用setTimeout](./ts/setTimeout_in_TypeScript.md)
 
